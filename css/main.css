@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+}
+/*grid*/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float:left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/* The hero image */
+header  {
+    height: 600px;
+    background: url('../img/gabriel-bassino-hero.jpg');
+    background-size: 100% 100%;
+}
+header h1, p {
+
+  color: #BBC085;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 45px;
+
+}
+/******Work CSS******/
+#work {
+   background-color: grey;
+   text-align: center;
+}
+#work .full-width {
+  padding: 115px 0;
+}
+}
+#work img {
+   padding-bottom: 30px;
+   margin: auto;
+   display: block;
+   width: auto;
+}
+#work h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  width: 195px;
+  margin: 0 auto;
+  text-align: center;
+}
+#work p {
+  font-family: 'Roboto Slab', sans-sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 49px;
+  text-align: center;
+}
+/*Portfolio*/
+/*About*/
+/*contact*/
