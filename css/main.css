@@ -20,21 +20,26 @@ header  {
     background: url('../img/gabriel-bassino-hero.jpg');
     background-size: 100% 100%;
 }
-header h1, p {
-
+header h1 {
   color: #BBC085;
   font-size: 30px;
   text-align: center;
-  padding-top: 45px;
-
+  padding-top: 200px;
+}
+header p {
+  color: #BBC085;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
 }
 /******Work CSS******/
 #work {
    background-color: grey;
+   height: 600px;
    text-align: center;
 }
 #work .full-width {
-  padding: 115px 0;
+   padding: 115px 0;
 }
 }
 #work img {
@@ -59,5 +64,31 @@ header h1, p {
   text-align: center;
 }
 /*Portfolio*/
+#Portfolio h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.project {
+  height: 311px;
+  clear: both;
+}
+.project img {
+  height: 250px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding: 30%;
+}
+.project-text {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+
+
+
+
 /*About*/
 /*contact*/
