@@ -16,9 +16,11 @@ body, html {
 }
 /* The hero image */
 header  {
-    height: 600px;
-    background: url('../img/gabriel-bassino-hero.jpg');
+    height: 800px;
+    background: url('../img/hero-image.png');
     background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 header h1 {
   color: #BBC085;
@@ -73,11 +75,17 @@ header p {
   clear: both;
 }
 .project img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  clear: both;
   height: 250px;
   width: 400px;
   display: block;
-  margin: auto;
-  padding: 30%;
+  margin: 5px;
+
+}
+.project img:hover {
+  box-shadow: 0 0 2px 1px #bdbf09;
 }
 .project-text {
   width: 500px;
@@ -86,9 +94,4 @@ header p {
   text-align: justify;
 }
 
-
-
-
-
-/*About*/
 /*contact*/
