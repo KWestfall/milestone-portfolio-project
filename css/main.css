@@ -1,5 +1,7 @@
-body, html {
-    height: 100%;
+ body {
+  overflow: auto;
+  padding: 0;
+  margin: 0;
 }
 /*grid*/
 .full-width {
@@ -20,6 +22,7 @@ header  {
     background: url('../img/hero-image.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    padding: 1em 0;
 
 }
 header h1 {
@@ -59,13 +62,18 @@ header p {
   text-align: center;
 }
 #work p {
-  font-family: 'Roboto Slab', sans-sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 18px;
   line-height: 30px;
   padding: 0 49px;
   text-align: center;
 }
 /*Portfolio*/
+#Portfolio {
+  background-color: green;
+  height: 975px;
+  padding: 1em 0;
+}
 #Portfolio h2 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -95,3 +103,50 @@ header p {
 }
 
 /*contact*/
+#contact {
+   background-color: #EBEBEB;
+   height: 600px;
+}
+#contact .full-width {
+   padding: 115px 0;
+}
+#contact #contact-img {
+   margin-left: 25px;
+   border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #envelope, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height:44px;
+}
+#contact #email-header{
+    font-size:32px;
+    font-weight: lighter;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
