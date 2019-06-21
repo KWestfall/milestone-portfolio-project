@@ -1,7 +1,9 @@
- body {
+ html, body {
   overflow: auto;
   padding: 0;
   margin: 0;
+  width:100%;
+  height:100%;
 }
 /*grid*/
 .full-width {
@@ -70,7 +72,7 @@ header p {
 }
 /*Portfolio*/
 #Portfolio {
-  background-color: green;
+
   height: 975px;
   padding: 1em 0;
 }
@@ -86,19 +88,15 @@ header p {
   border: 1px solid #ddd;
   border-radius: 4px;
   clear: both;
-  height: 250px;
-  width: 400px;
   display: block;
-  margin: 5px;
-
+  width: 400px;
 }
 .project img:hover {
   box-shadow: 0 0 2px 1px #bdbf09;
 }
 .project-text {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+
+  margin-left: 100px;
   text-align: justify;
 }
 
@@ -110,9 +108,11 @@ header p {
 #contact .full-width {
    padding: 115px 0;
 }
-#contact #contact-img {
+#contact-img {
    margin-left: 25px;
    border: 12px solid #ffffff;
+   height: 347px;
+   width: 520px;
 }
 #contact h2, #contact #email-header, #contact #envelope, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
@@ -133,6 +133,7 @@ header p {
     font-size: 29px;
     line-height: 44px;
     margin: 40px 0 0 0;
+
 }
 #contact a {
     color: #C49075;
@@ -147,6 +148,8 @@ header p {
      display: inline-block;
 }
 #contact ul img {
+  align-items: center;
     font-size: 32px;
     padding-right: 48px;
+    color: #bdbf09;
 }
