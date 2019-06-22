@@ -21,14 +21,14 @@
 /* The hero image */
 header  {
     height: 800px;
-    background: url('../img/hero-image.png');
+    background: url(../img/gabriel-bassino-hero2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 1em 0;
 
 }
 header h1 {
-  color: #BBC085;
+  color: #dfe331;
   font-size: 30px;
   text-align: center;
   padding-top: 200px;
@@ -41,7 +41,7 @@ header p {
 }
 /******Work CSS******/
 #work {
-   background-color: grey;
+   background-color: #EBEBEB;
    height: 600px;
    text-align: center;
 }
@@ -72,7 +72,7 @@ header p {
 }
 /*Portfolio*/
 #Portfolio {
-
+  background-color: #747626;
   height: 975px;
   padding: 1em 0;
 }
@@ -92,7 +92,7 @@ header p {
   width: 400px;
 }
 .project img:hover {
-  box-shadow: 0 0 2px 1px #bdbf09;
+  box-shadow: 0 0 2px 1px #dfe331;
 }
 .project-text {
 
@@ -112,7 +112,7 @@ header p {
    margin-left: 25px;
    border: 12px solid #ffffff;
    height: 347px;
-   width: 520px;
+   width: 470px;
 }
 #contact h2, #contact #email-header, #contact #envelope, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
