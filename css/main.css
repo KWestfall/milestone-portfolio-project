@@ -29,15 +29,16 @@ header  {
 }
 header h1 {
   color: #dfe331;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 175px;
 }
 header p {
   color: #BBC085;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 30px;
   text-align: center;
-  padding-top: 50px;
 }
 /******Work CSS******/
 #work {
@@ -72,13 +73,15 @@ header p {
 }
 /*Portfolio*/
 #Portfolio {
-  background-color: #747626;
+  background-image: radial-gradient(#EBEBEB,#bdbf09);
   height: 975px;
   padding: 1em 0;
 }
 #Portfolio h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   text-align: center;
+  font-size: 30px;
+
 }
 .project {
   height: 311px;
@@ -92,13 +95,21 @@ header p {
   width: 400px;
 }
 .project img:hover {
-  box-shadow: 0 0 2px 1px #dfe331;
+  box-shadow: 0 0 2px 1px darkgreen;
 }
-.project-text {
-
+.project-text h3 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.project-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
   margin-left: 100px;
   text-align: justify;
 }
+
 
 /*contact*/
 #contact {
@@ -114,11 +125,11 @@ header p {
    height: 347px;
    width: 470px;
 }
-#contact h2, #contact #email-header, #contact #envelope, #contact #socialmedia-header, #contact ul {
+#contact h2, #contact #email-header, #contact #envelope, #contact ul {
     padding-left: 115px;
 }
 #contact h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', serif;
     font-size: 36px;
     line-height:44px;
 }
@@ -133,10 +144,10 @@ header p {
     font-size: 29px;
     line-height: 44px;
     margin: 40px 0 0 0;
-
+    padding-left: 150px;
 }
 #contact a {
-    color: #C49075;
+    color: #bdbf09;
     font-weight: bold;
     font-size: 28px;
     text-decoration: none;
