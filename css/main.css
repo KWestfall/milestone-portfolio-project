@@ -25,7 +25,6 @@ header  {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 1em 0;
-
 }
 header h1 {
   color: #dfe331;
@@ -49,7 +48,7 @@ header p {
 #work .full-width {
    padding: 115px 0;
 }
-}
+
 #work img {
    padding-bottom: 30px;
    margin: auto;
@@ -81,7 +80,6 @@ header p {
   font-family: 'Roboto Slab', sans-serif;
   text-align: center;
   font-size: 30px;
-
 }
 .project {
   height: 311px;
@@ -109,8 +107,6 @@ header p {
   margin-left: 100px;
   text-align: justify;
 }
-
-
 /*contact*/
 #contact {
    background-color: #EBEBEB;
